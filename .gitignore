@@ -1,0 +1,8 @@
+tmp/
+coverage/
+node_modules/
+bower_components/
+env/
+npm-debug.log
+.DS_Store
+
