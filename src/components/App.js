@@ -3,6 +3,10 @@ import '../assets/js/jquery.backstretch.min.js';
 import styles from './App.scss';
 import React, { Component } from 'react';
 import Welcome from './Welcome';
+import Countdown from './Countdown';
+import Party from './Party';
+import Gallery from './Gallery';
+
 import Welcome1 from '../assets/images/welcome_min.jpg';
 import Welcome2 from '../assets/images/welcome2_min.jpg';
 
@@ -19,6 +23,9 @@ export default class App extends Component {
     return (
       <div id="wrapper">
         <Welcome />
+        <Countdown />
+        <Party />
+        <Gallery />
       </div>
     )
   }
