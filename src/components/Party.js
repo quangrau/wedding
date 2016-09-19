@@ -10,7 +10,7 @@ export default class Party extends Component {
             <div className="row">
               <div className="col-xs-12">
                 <h1 className={styles.title}>Our Party</h1>
-                <h4>MELISA CENTER</h4>
+                <h4 className={styles.name}>MELISA CENTER</h4>
                 <p>
                   85 Thoại Ngọc Hầu, P. Hòa Thạnh, Q. Tân Phú, HCM<br/>
                   Vào lúc <strong>18:00</strong> ngày <strong>02</strong> tháng <strong>10</strong> năm <strong>2016</strong><br/>
@@ -19,7 +19,7 @@ export default class Party extends Component {
               </div>
               <div className="col-xs-12">
                 <div className={styles.rsvp}>
-                  <a target="_blank" href="#" className="btn btn-outline-secondary">
+                  <a target="_blank" href="https://www.facebook.com/events/1073751489369672/" className="btn btn-outline-secondary">
                     RSVP ON FACEBOOK
                   </a>
                 </div>

@@ -19,14 +19,19 @@
 }
 
 .title {
-  font-size: 50px;
+  font-size: 4em;
   font-family: 'Alex Brush',myriad-pro,sans-serif,Helvetica Neue,Helvetica;
   margin-bottom: 50px;
 }
 
+.name {
+  font-weight: bold;
+}
+
 .map {
   color: rgba(250, 250, 250, .74);
-  font-size: 12px;
+  font-size: .75em;
+  text-decoration: underline;
   &:hover {
     color: rgba(250, 250, 250, 1);
   }

@@ -11,12 +11,12 @@ export default class Comment extends Component {
               <div className={styles.border} />
 
               <p className={styles.hastag}>
-                <a href="#">#QuangVaThanh</a>
+                <a target="_blank" href="https://www.facebook.com/hashtag/quangvathanh">#QuangVaThanh</a>
               </p>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-8 offset-md-2">
               <div className={styles.wrap}>
-                Comment box
+                <div className="fb-comments" data-href="http://thienthanh-thienthanh.com" data-numposts="10"></div>
               </div>
             </div>
           </div>

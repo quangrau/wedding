@@ -1,11 +1,11 @@
 .root {
-  // padding: 60px 0;
   background: #FFF;
   color: #000;
+  padding-bottom: 60px;
 }
 
 .wrap {
-  // width: 600px;
+  width: 100%;
   margin: 30px auto;
   padding: 2em;
   box-shadow: 0px 0px 120px 0px rgba(1, 1, 1, 0.12);
@@ -20,5 +20,21 @@
   padding: 30px 0 0 0;
   a {
     font-size: 1.7em;
+  }
+}
+
+// Extra small devices (portrait phones, less than 544px)
+// No media query since this is the default in Bootstrap
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .wrap {
+    width: 600px;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .wrap {
+    width: 600px;
   }
 }

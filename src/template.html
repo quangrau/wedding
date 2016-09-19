@@ -9,7 +9,7 @@
     <meta name="description" content="Thành Quang - Thiên Thanh | Our wedding">
     <title><%= htmlWebpackPlugin.options.title %></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Alex+Brush" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alex+Brush|Open+Sans+Condensed:300" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./react-slick.css" />
   </head>
   <body>
@@ -20,6 +20,15 @@
       $(function(){
         // $.firefly();
       });
+    </script>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7&appId=651754281606947";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
     </script>
   </body>
 </html>

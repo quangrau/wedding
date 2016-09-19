@@ -44,7 +44,7 @@ export default class Gallery extends Component {
       // centerMode: !0,
       // centerPadding: '100px',
       // variableWidth: true,
-      slidesToShow: 2,
+      slidesToShow: 3,
       slidesToScroll: 1,
       nextArrow: <NextArrow />,
       prevArrow: <PrevArrow />,
@@ -53,7 +53,7 @@ export default class Gallery extends Component {
         settings: {
           centerMode: !0,
           centerPadding: "60px",
-          slidesToShow: 1
+          slidesToShow: 2
         }
       }, {
         breakpoint: 768,
@@ -78,7 +78,9 @@ export default class Gallery extends Component {
           <div className="row">
             <div className="col-xs-12">
               <h1 className={styles.title}>Our Gallery</h1>
-              <p>Hãy giúp chúng tôi lưu giữ những khoảnh khắc đáng nhớ trong ngày cưới, bằng cách sử dụng hashtag <a target="_blank" href="https://www.facebook.com/hashtag/quangvathanh">#QuangVaThanh</a>.</p>
+              <p>Hãy giúp chúng tôi lưu giữ những khoảnh khắc đáng nhớ trong
+                ngày cưới, bằng cách sử dụng hashtag <a target="_blank" href="https://www.facebook.com/hashtag/quangvathanh">#QuangVaThanh</a>.
+              </p>
             </div>
           </div>
         </div>

@@ -2,8 +2,16 @@ body {
   background: #000000;
   color: white;
   height: 100vh;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+p {
+  font-size: 1.6em;
 }
 
 a {
   color: #7db660;
+  &:hover {
+    color: #33A9E0;
+  }
 }
