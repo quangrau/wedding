@@ -57,7 +57,7 @@ module.exports = {
 		}),
 		new HtmlWebpackPlugin({
 			template: './src/template.html',
-			title: 'Webpack App'
+            title: 'Thành Quang & Thiên Thanh | Our wedding | 2nd October',
 		}),
 		new webpack.optimize.DedupePlugin()
 	]
