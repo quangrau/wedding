@@ -17,6 +17,13 @@ export default class Party extends Component {
                   <a className={styles.map} target="_blank" href="https://goo.gl/maps/NwCP95hKVTR2">(xem bản đồ)</a>
                 </p>
               </div>
+              <div className="col-xs-12">
+                <div className={styles.rsvp}>
+                  <a target="_blank" href="#" className="btn btn-outline-secondary">
+                    RSVP ON FACEBOOK
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

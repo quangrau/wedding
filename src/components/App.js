@@ -6,6 +6,7 @@ import Welcome from './Welcome';
 import Countdown from './Countdown';
 import Party from './Party';
 import Gallery from './Gallery';
+import Comment from './Comment';
 
 import Welcome1 from '../assets/images/welcome_min.jpg';
 import Welcome2 from '../assets/images/welcome2_min.jpg';
@@ -26,6 +27,7 @@ export default class App extends Component {
         <Countdown />
         <Party />
         <Gallery />
+        <Comment />
       </div>
     )
   }
