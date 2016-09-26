@@ -5,7 +5,9 @@
   color: #333;
   background: #FFF;
   text-align: center;
-  font-weight: 300;
+  p {
+    font-weight: 300 !important;
+  }
 }
 
 .title {
